@@ -1,0 +1,21 @@
+@import './variables';
+
+#testimonials {
+    height: 300px;
+    background: linear-gradient(360deg, #020002 52.5%, rgba(239, 37, 113, 0.9) 100%);
+
+    h1{
+        @include glow_text();
+        text-align: center;
+    }
+
+    p{
+        color: $glowly_green;
+        font-family: 'Michroma', sans-serif;
+    }
+
+    .signature{
+        color: $pink_for_small_text;
+    }
+
+}

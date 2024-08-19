@@ -1,0 +1,12 @@
+@import './variables';
+
+#portfolio{
+    background: linear-gradient(180deg, #020002 52.5%, rgba(239, 37, 113, 0.9) 100%);
+    text-align: center;
+
+    h1{
+        font-size: 50px;
+        @include glow_text();
+    }
+
+}

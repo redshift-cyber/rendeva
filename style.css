@@ -1,0 +1,543 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Zen+Tokyo+Zoo&display=swap");
+.loader_bg {
+  position: fixed;
+  z-index: 999999;
+  background: #0e0313;
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  border: 0 soild transparent;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: calc(50vh - 75px);
+  left: calc(50vw - 75px);
+}
+
+.loader:before, .loader:after {
+  content: "";
+  border: 1em solid #EF2571;
+  border-radius: 50%;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: loader 2s linear infinite;
+  opacity: 0;
+}
+
+.loader:before {
+  animation-delay: 0.5s;
+}
+
+@keyframes loader {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+body {
+  scrollbar-color: pink;
+}
+
+/*Glow text*/
+.box p {
+  text-transform: uppercase;
+  font-family: "Zen Tokyo Zoo", sans-serif;
+  color: #EF2571;
+  /* Light purple color for the text */
+  text-shadow: 0 0 10px #EF2571, 0 0 10px rgba(148, 0, 211, 0.5), 0 0 40px #EF2571;
+  animation: animate 3s infinite alternate;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+@keyframes animate {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.8;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.3;
+  }
+  46% {
+    opacity: 1;
+  }
+}
+.glow-container {
+  display: inline-block;
+  /* Keeps the image and its glow contained */
+}
+
+.glow-image {
+  height: auto;
+  box-shadow: 0 0 15px 5px #EF2571;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-image:hover {
+  box-shadow: 0 0 45px 25px #1ED9D9;
+  /* Stronger glow on hover */
+}
+
+
+#hero {
+  box-sizing: border-box;
+  position: relative;
+  background: #331936;
+  height: 109vh;
+  text-align: left;
+  overflow: hidden;
+  background: linear-gradient(180deg, #020002 64%, rgba(239, 37, 113, 0.9) 100%);
+}
+#hero i {
+  color: #EF2571;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 950px;
+}
+#hero i:hover {
+  cursor: pointer;
+}
+#hero p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.nav-link {
+  font-family: "Michroma", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #1ED9D9;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 20px;
+  font-family: "Michroma";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  margin-left: 200px;
+  top: 50px;
+}
+
+body {
+  scrollbar-color: pink;
+}
+
+/*Glow text*/
+.box p {
+  text-transform: uppercase;
+  font-family: "Zen Tokyo Zoo", sans-serif;
+  color: #EF2571;
+  /* Light purple color for the text */
+  text-shadow: 0 0 10px #EF2571, 0 0 10px rgba(148, 0, 211, 0.5), 0 0 40px #EF2571;
+  animation: animate 3s infinite alternate;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+@keyframes animate {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.8;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.3;
+  }
+  46% {
+    opacity: 1;
+  }
+}
+.glow-container {
+  display: inline-block;
+  /* Keeps the image and its glow contained */
+}
+
+.glow-image {
+  height: auto;
+  box-shadow: 0 0 15px 5px #EF2571;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-image:hover {
+  box-shadow: 0 0 45px 25px #1ED9D9;
+  /* Stronger glow on hover */
+}
+
+
+body {
+  scrollbar-color: pink;
+}
+
+/*Glow text*/
+.box p {
+  text-transform: uppercase;
+  font-family: "Zen Tokyo Zoo", sans-serif;
+  color: #EF2571;
+  /* Light purple color for the text */
+  text-shadow: 0 0 10px #EF2571, 0 0 10px rgba(148, 0, 211, 0.5), 0 0 40px #EF2571;
+  animation: animate 3s infinite alternate;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+@keyframes animate {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.8;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.3;
+  }
+  46% {
+    opacity: 1;
+  }
+}
+.glow-container {
+  display: inline-block;
+  /* Keeps the image and its glow contained */
+}
+
+.glow-image {
+  height: auto;
+  box-shadow: 0 0 15px 5px #EF2571;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-image:hover {
+  box-shadow: 0 0 45px 25px #1ED9D9;
+  /* Stronger glow on hover */
+}
+
+
+#about_us {
+  height: 800px;
+  background: linear-gradient(360deg, #020002 52.5%, rgba(239, 37, 113, 0.9) 100%);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#about_us p {
+  font-family: "Michroma", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 29px;
+  text-align: justify;
+  color: #1ED9D9;
+}
+#about_us .b-nig {
+  padding-left: 150px;
+}
+#about_us .container-fluid {
+  padding-left: 10%;
+  padding-right: 0%;
+}
+#about_us .b-nig2 {
+  padding-left: 260px;
+}
+#about_us h1 {
+  text-align: center;
+  margin-right: 200px;
+  text-transform: uppercase;
+  font-family: "Zen Tokyo Zoo", sans-serif;
+  color: #EF2571;
+  /* Light purple color for the text */
+  text-shadow: 0 0 10px #EF2571, 0 0 10px rgba(148, 0, 211, 0.5), 0 0 40px #EF2571;
+  animation: animate 3s infinite alternate;
+  font-size: 60px;
+}
+
+.logo1 {
+  transform: matrix(0.98, 0.22, -0.24, 0.97, 0, 0);
+}
+
+.logo2 {
+  transform: matrix(0.98, 0.22, -0.24, 0.97, 0, 0);
+}
+
+.logo3 {
+  transform: matrix(0.98, 0.22, -0.24, 0.97, 0, 0);
+}
+
+.logo4 {
+  transform: matrix(0.98, 0.22, -0.24, 0.97, 0, 0);
+}
+
+body {
+  scrollbar-color: pink;
+}
+
+/*Glow text*/
+.box p {
+  text-transform: uppercase;
+  font-family: "Zen Tokyo Zoo", sans-serif;
+  color: #EF2571;
+  /* Light purple color for the text */
+  text-shadow: 0 0 10px #EF2571, 0 0 10px rgba(148, 0, 211, 0.5), 0 0 40px #EF2571;
+  animation: animate 3s infinite alternate;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+@keyframes animate {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.8;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.3;
+  }
+  46% {
+    opacity: 1;
+  }
+}
+.glow-container {
+  display: inline-block;
+  /* Keeps the image and its glow contained */
+}
+
+.glow-image {
+  height: auto;
+  box-shadow: 0 0 15px 5px #EF2571;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-image:hover {
+  box-shadow: 0 0 45px 25px #1ED9D9;
+  /* Stronger glow on hover */
+}
+
+
+#why_us {
+  background: linear-gradient(180deg, #020002 52.5%, rgba(239, 37, 113, 0.9) 100%);
+  height: 389px;
+  text-align: center;
+  height: 60vh;
+}
+#why_us h1 {
+  text-transform: uppercase;
+  font-family: "Zen Tokyo Zoo", sans-serif;
+  color: #EF2571;
+  /* Light purple color for the text */
+  text-shadow: 0 0 10px #EF2571, 0 0 10px rgba(148, 0, 211, 0.5), 0 0 40px #EF2571;
+  animation: animate 3s infinite alternate;
+  font-size: 60px;
+  text-align: center;
+}
+#why_us p {
+  font-family: "Michroma", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  color: #1ED9D9;
+  padding-left: 20%;
+  text-align: center;
+  text-align: center;
+  font-size: 15px;
+}
+#why_us i {
+  color: #E44188;
+  font-size: 60px;
+  text-align: center;
+  margin-left: 55px;
+}
+#why_us i:hover {
+  color: #1ED9D9;
+  cursor: pointer;
+}
+
+body {
+  scrollbar-color: pink;
+}
+
+/*Glow text*/
+.box p {
+  text-transform: uppercase;
+  font-family: "Zen Tokyo Zoo", sans-serif;
+  color: #EF2571;
+  /* Light purple color for the text */
+  text-shadow: 0 0 10px #EF2571, 0 0 10px rgba(148, 0, 211, 0.5), 0 0 40px #EF2571;
+  animation: animate 3s infinite alternate;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+@keyframes animate {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.8;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.3;
+  }
+  46% {
+    opacity: 1;
+  }
+}
+.glow-container {
+  display: inline-block;
+  /* Keeps the image and its glow contained */
+}
+
+.glow-image {
+  height: auto;
+  box-shadow: 0 0 15px 5px #EF2571;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-image:hover {
+  box-shadow: 0 0 45px 25px #1ED9D9;
+  /* Stronger glow on hover */
+}
+
+
+#testimonials {
+  height: 300px;
+  background: linear-gradient(360deg, #020002 52.5%, rgba(239, 37, 113, 0.9) 100%);
+}
+#testimonials h1 {
+  text-transform: uppercase;
+  font-family: "Zen Tokyo Zoo", sans-serif;
+  color: #EF2571;
+  /* Light purple color for the text */
+  text-shadow: 0 0 10px #EF2571, 0 0 10px rgba(148, 0, 211, 0.5), 0 0 40px #EF2571;
+  animation: animate 3s infinite alternate;
+  text-align: center;
+}
+#testimonials p {
+  color: #1ED9D9;
+  font-family: "Michroma", sans-serif;
+}
+#testimonials .signature {
+  color: #E44188;
+}
+
+body {
+  scrollbar-color: pink;
+}
+
+/*Glow text*/
+.box p {
+  text-transform: uppercase;
+  font-family: "Zen Tokyo Zoo", sans-serif;
+  color: #EF2571;
+  /* Light purple color for the text */
+  text-shadow: 0 0 10px #EF2571, 0 0 10px rgba(148, 0, 211, 0.5), 0 0 40px #EF2571;
+  animation: animate 3s infinite alternate;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+@keyframes animate {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.8;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.3;
+  }
+  46% {
+    opacity: 1;
+  }
+}
+.glow-container {
+  display: inline-block;
+  /* Keeps the image and its glow contained */
+}
+
+.glow-image {
+  height: auto;
+  box-shadow: 0 0 15px 5px #EF2571;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-image:hover {
+  box-shadow: 0 0 45px 25px #1ED9D9;
+  /* Stronger glow on hover */
+}
+
+
+#portfolio {
+  background: linear-gradient(180deg, #020002 52.5%, rgba(239, 37, 113, 0.9) 100%);
+  text-align: center;
+}
+#portfolio h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: "Zen Tokyo Zoo", sans-serif;
+  color: #EF2571;
+  /* Light purple color for the text */
+  text-shadow: 0 0 10px #EF2571, 0 0 10px rgba(148, 0, 211, 0.5), 0 0 40px #EF2571;
+  animation: animate 3s infinite alternate;
+}/*# sourceMappingURL=style.css.map */

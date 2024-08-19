@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Zen+Tokyo+Zoo&display=swap');
+
+$font_family_primary: 'Zen Tokyo Zoo',
+sans-serif;
+$secondary_color: #EF2571;
+$primary_purple: #020002;
+$glowly_green: #1ED9D9;
+$other_pink: #FF00FF;
+$pink_for_small_text: #E44188;
+
+body {
+  scrollbar-color: pink;
+}
+
+@mixin glow_text {
+  text-transform: uppercase;
+  font-family: $font_family_primary;
+  color: $secondary_color ;
+  /* Light purple color for the text */
+  text-shadow: 0 0 10px $secondary_color, 0 0 10px rgba(148, 0, 211, 0.5), 0 0 40px $secondary_color;
+  animation: animate 3s infinite alternate;
+}
+
+/*Glow text*/
+.box p {
+  @include glow_text()
+}
+
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+@mixin rotate {
+  transform: matrix(0.98, 0.22, -0.24, 0.97, 0, 0);
+}
+
+@keyframes animate {
+  40% {
+    opacity: 1;
+  }
+
+  42% {
+    opacity: 0.8;
+  }
+
+  43% {
+    opacity: 1;
+  }
+
+  45% {
+    opacity: 0.3;
+  }
+
+  46% {
+    opacity: 1;
+  }
+}
+
+.glow-container {
+  display: inline-block;
+  /* Keeps the image and its glow contained */
+}
+
+.glow-image {
+  height: auto;
+  box-shadow: 0 0 15px 5px $secondary_color;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-image:hover {
+  box-shadow: 0 0 45px 25px $glowly_green;
+  /* Stronger glow on hover */
+}
+
+
+/*# sourceMappingURL=style.css.map */
+
+
+@mixin why_us {
+  font-family: 'Michroma', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  color: #1ED9D9;
+  padding-left: 20%;
+  text-align: center;
+}

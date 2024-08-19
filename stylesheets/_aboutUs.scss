@@ -1,0 +1,56 @@
+@import './variables';
+
+#about_us {
+    height: 800px;
+    background: linear-gradient(360deg, #020002 52.5%, rgba(239, 37, 113, 0.9) 100%);
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    p {
+        font-family: 'Michroma', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 29px;
+        text-align: justify;
+        color: $glowly_green;
+    }
+
+    .b-nig {
+        padding-left: 150px;
+    }
+
+    .container-fluid{
+        padding-left: 10%;
+        padding-right: 0%;
+    }
+
+    .b-nig2{
+       padding-left: 260px;
+    }
+
+    h1{
+        text-align: center;
+        margin-right: 200px;
+        @include glow_text();
+        font-size: 60px;
+    }
+
+}
+
+.logo1{
+    @include rotate();
+}
+
+.logo2{
+    @include rotate();
+}
+
+.logo3{
+    @include rotate();
+}
+
+.logo4{
+    @include rotate();
+}
+
