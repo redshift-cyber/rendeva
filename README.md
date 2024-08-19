@@ -1,2 +1,0 @@
-# rendeva
-Rendeva website ( test )
